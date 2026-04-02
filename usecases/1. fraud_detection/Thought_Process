@@ -1,0 +1,6 @@
+I have structured the solution in eight views.
+First, I define the business context and desired outcomes.
+Then I explain the target architecture and end-to-end flow.
+After that, I isolate the decision engine because in banking the logic, risk scoring, and explainability need separate attention.
+I then cover non-functional requirements and governance to show how the solution will scale and remain controlled in production.
+Finally, I present risks, trade-offs, and a phased roadmap so stakeholders can see both the target state and the path to get there.
