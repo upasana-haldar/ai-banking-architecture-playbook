@@ -1,0 +1,96 @@
+Here’s a clean **GitHub-ready summary** you can paste directly 👇
+
+---
+
+# HLD vs LLD (System Design Basics)
+
+## What is HLD?
+
+**HLD (High-Level Design)** describes the **overall architecture of a system**.
+
+It focuses on:
+
+* system components
+* integrations
+* data flow
+* architecture decisions
+* non-functional requirements (NFRs)
+
+**Goal:** Show *what the system looks like and how parts connect*
+
+---
+
+## What is LLD?
+
+**LLD (Low-Level Design)** describes the **detailed implementation of the system**.
+
+It focuses on:
+
+* APIs
+* database schema
+* workflows and logic
+* field-level mapping
+* error handling
+* configurations
+
+**Goal:** Show *exactly how the system will be built*
+
+---
+
+## Key Differences
+
+| Aspect   | HLD                                 | LLD                        |
+| -------- | ----------------------------------- | -------------------------- |
+| Focus    | Big picture                         | Detailed design            |
+| Audience | Architects, business, stakeholders  | Developers, QA, support    |
+| Level    | Abstract                            | Detailed                   |
+| Covers   | Architecture, systems, integrations | APIs, DB, logic, workflows |
+| Purpose  | Design the solution                 | Build the solution         |
+
+---
+
+## Simple Analogy
+
+* **HLD** = House blueprint (rooms, layout)
+* **LLD** = Construction details (wiring, pipes, dimensions)
+
+---
+
+## Banking Example (Fraud Lien System)
+
+### HLD
+
+* API layer
+* Workflow engine
+* Queue
+* Core banking system
+* CRM integration
+
+### LLD
+
+* API: `/place-lien` (POST)
+* Payload & response structure
+* Retry logic (3 attempts)
+* DB fields (case_id, status, timestamp)
+* Validation and rule conditions
+
+---
+
+## Where Each is Used
+
+* **HLD:** Architecture design, stakeholder discussions, approvals
+* **LLD:** Development, integration, testing, implementation
+
+---
+
+## Key Takeaway
+
+> HLD defines *what and why* the system is built, while LLD defines *how exactly* it is implemented.
+
+---
+
+## One-line Definition
+
+> HLD provides a high-level architectural view of the system, while LLD provides detailed technical specifications required for implementation.
+
+---
